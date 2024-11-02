@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Resume-Review-Web-App/static/css/main.28696fc7.css",
+    "main.js": "/Resume-Review-Web-App/static/js/main.d31be6fd.js",
+    "static/js/213.bbe7776b.chunk.js": "/Resume-Review-Web-App/static/js/213.bbe7776b.chunk.js",
+    "static/js/732.f79e3088.chunk.js": "/Resume-Review-Web-App/static/js/732.f79e3088.chunk.js",
+    "static/js/453.28200d50.chunk.js": "/Resume-Review-Web-App/static/js/453.28200d50.chunk.js",
+    "static/media/hero-background.jpg": "/Resume-Review-Web-App/static/media/hero-background.db5e32d75a32a62fb402.jpg",
+    "static/media/template2.jpg": "/Resume-Review-Web-App/static/media/template2.58e9a97c21b2cb136893.jpg",
+    "static/media/template5.jpg": "/Resume-Review-Web-App/static/media/template5.d55588db838b4a9308de.jpg",
+    "static/media/personal-feedback-icon.png": "/Resume-Review-Web-App/static/media/personal-feedback-icon.8c00c5b572ff11ece132.png",
+    "static/media/template1.jpg": "/Resume-Review-Web-App/static/media/template1.9a707f84cca8f591347f.jpg",
+    "static/media/resume.avif": "/Resume-Review-Web-App/static/media/resume.056ef147eb9a8a8ec5ac.avif",
+    "static/media/Hand.svg": "/Resume-Review-Web-App/static/media/Hand.e84aa15d122afc938542.svg",
+    "static/media/template3.jpg": "/Resume-Review-Web-App/static/media/template3.9c03087a5b877115d3fb.jpg",
+    "static/media/Res.svg": "/Resume-Review-Web-App/static/media/Res.49bda4227a190bf7193ee13016883dc1.svg",
+    "static/media/template4.jpg": "/Resume-Review-Web-App/static/media/template4.f42cc372818d513ed832.jpg",
+    "static/media/resume-score-icon.png": "/Resume-Review-Web-App/static/media/resume-score-icon.55301f0cf4430497eff8.png",
+    "index.html": "/Resume-Review-Web-App/index.html",
+    "main.28696fc7.css.map": "/Resume-Review-Web-App/static/css/main.28696fc7.css.map",
+    "main.d31be6fd.js.map": "/Resume-Review-Web-App/static/js/main.d31be6fd.js.map",
+    "213.bbe7776b.chunk.js.map": "/Resume-Review-Web-App/static/js/213.bbe7776b.chunk.js.map",
+    "732.f79e3088.chunk.js.map": "/Resume-Review-Web-App/static/js/732.f79e3088.chunk.js.map",
+    "453.28200d50.chunk.js.map": "/Resume-Review-Web-App/static/js/453.28200d50.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.28696fc7.css",
+    "static/js/main.d31be6fd.js"
+  ]
+}
