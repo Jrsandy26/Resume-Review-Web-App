@@ -1,0 +1,18 @@
+/* src/components/Speedometer.css */
+
+.speedometer {
+    position: relative;
+    width: 200px;
+    height: 100px;
+    margin: 20px auto;
+  }
+  
+  .score-label {
+    position: absolute;
+    top: 60px; /* Position label below the meter */
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.5rem;
+    color: #ffdd57; /* Bright yellow for score text */
+  }
+  

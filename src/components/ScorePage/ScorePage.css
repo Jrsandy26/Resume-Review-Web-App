@@ -1,0 +1,283 @@
+.score-page {
+  text-align: center;
+  padding: 20px;
+  background-color: black; /* Changed background color to black */
+  color: #f0f0f0; /* Light grey text color for better contrast */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+  font-family: Arial, sans-serif; /* Set a default font */
+}
+
+.banner {
+  background-image: url('E:\11 project\resume-score-checker\src\assets\images\Hand.svg'); /* Replace with your banner image path */
+  background-size: cover; /* Cover the entire area */
+  background-position: center; /* Center the image */
+  color: white; /* Banner text color */
+  padding: 15px;
+  font-size: 2rem; /* Increased font size */
+  animation: slideIn 0.5s ease; /* Animation for banner */
+  height: 200px; /* Fixed height for the banner */
+  display: flex; /* Use flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.main-content {
+  margin: 20px 0;
+}
+
+.form-container {
+  margin-bottom: 20px;
+}
+
+.upload-button {
+  margin-right: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #666; /* Light border for contrast */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Transition for hover effects */
+  background-color: #333; /* Dark grey background for buttons */
+  color: #f0f0f0; /* Light grey text color */
+  font-size: 1rem; /* Font size for buttons */
+}
+
+.upload-button:hover {
+  background-color: #444; /* Slightly lighter grey on hover */
+  transform: scale(1.05); /* Scale effect on hover */
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2); /* Light shadow effect on hover */
+}
+
+.view-button {
+  padding: 10px 20px;
+  background-color: #28a745; /* Green button color */
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Transition for hover effects */
+}
+
+.view-button:hover {
+  background-color: #218838; /* Darker green on hover */
+  transform: scale(1.05); /* Scale effect on hover */
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2); /* Light shadow effect on hover */
+}
+
+.result-container h2 {
+  font-size: 2.5rem;
+  color: #ffdd57; /* Bright yellow for results to stand out */
+}
+
+.suggestion-list {
+  text-align: left;
+  margin-top: 10px;
+  list-style-type: disc;
+  margin-left: 20px;
+  color: #f0f0f0; /* Light grey for suggestion text */
+}
+
+h3 {
+  margin-bottom: 40px;
+  font-size: 2.7rem;
+  text-align: left;
+  color: #ffdd57; /* Bright yellow for section headers */
+}
+
+h1 {
+  font-size: 2.5rem; /* Adjusted for consistency */
+  margin-bottom: 20px;
+  color: #ffdd57; /* Bright yellow for main title */
+}
+
+h2 {
+  font-size: 2.2rem; /* Adjusted for consistency */
+  margin: 15px 0;
+  color: #f0f0f0; /* Light grey for subheadings */
+}
+
+form {
+  margin: 20px 0;
+}
+
+/* Style for input button */
+.upload-button {
+  background-color: #444; /* Darker grey for input button */
+  color: #f0f0f0; /* Light grey for text */
+}
+
+/* Style for view button */
+.view-button {
+  background-color: #28a745; /* Green button color */
+  color: white;
+}
+
+ul {
+  list-style-type: disc; 
+  text-align: left;
+  max-width: 600px;
+  margin: 20px auto;
+  font-size: 1.2rem;
+  line-height: 1.8; 
+  padding-left: 40px; 
+}
+
+ul li {
+  margin-bottom: 20px; 
+  color: #f0f0f0; /* Light grey for list items */
+}
+
+p {
+  font-size: 1.2rem;
+  color: #f0f0f0; /* Light grey for paragraph text */
+}
+
+/* Animation for banner */
+@keyframes slideIn {
+  from {
+      transform: translateY(-20px);
+      opacity: 0;
+  }
+  to {
+      transform: translateY(0);
+      opacity: 1;
+  }
+}
+
+/* Animation for result container */
+.result-container {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.5s forwards; /* Animation for results */
+}
+
+@keyframes fadeInUp {
+  from {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+/* Extra Info Section Styles */
+.extra-info {
+  margin: 20px 0;
+  transition: transform 0.3s ease; /* Transition for scale effect */
+}
+
+.extra-info:hover {
+  transform: scale(1.02); /* Scale effect on hover */
+}
+
+.extra-info h2 {
+  margin-top: 20px;
+  font-size: 2rem;
+  color: #ffdd57; /* Bright yellow for extra info titles */
+}
+.score-page {
+  text-align: center;
+  padding: 20px;
+  background-color: black;
+  color: #f0f0f0;
+  transition: background-color 0.3s ease;
+  font-family: Arial, sans-serif;
+}
+
+/* Banner, Main Content, Form Container styles unchanged... */
+
+.upload-button, .view-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.upload-button {
+  background-color: #444;
+}
+
+.view-button {
+  background-color: #28a745;
+}
+
+.button:hover {
+  transform: scale(1.05);
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .banner {
+    font-size: 1.5rem;
+    height: 150px;
+  }
+  .upload-button, .view-button {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+  h1, h2, h3 {
+    font-size: 1.8rem;
+  }
+  ul {
+    padding-left: 20px;
+    font-size: 1rem;
+  }
+}
+
+/* Error and loading message styles */
+.loading-message {
+  background-color: rgba(255, 255, 0, 0.1);
+  color: #333;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.error-message {
+  background-color: rgba(255, 0, 0, 0.1);
+  color: #333;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+/* Hover effect for results */
+.result-container {
+  transition: transform 0.3s ease;
+}
+
+.result-container:hover {
+  transform: scale(1.02);
+}
+
+/* Icon styles */
+.upload-button:before {
+  content: "📁";
+  margin-right: 8px;
+}
+
+.view-button:before {
+  content: "✅";
+  margin-right: 8px;
+}
+.home-button {
+  position: absolute; /* Position the button absolutely */
+  top: 20px; /* Adjust as needed */
+  left: 20px; /* Adjust as needed */
+  z-index: 10; /* Ensure it appears above other elements */
+}
+
+.home-link {
+  background-color: #000000; 
+  color: white; 
+  padding: 10px 15px; 
+  text-decoration: none; 
+  border-radius: 5px; 
+}
+
+.home-link:hover {
+  background-color: #cccf1e; 
+  color: #000000;
+}
