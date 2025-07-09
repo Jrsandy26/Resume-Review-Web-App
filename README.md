@@ -12,7 +12,68 @@ This project offers a comprehensive solution for building resumes, evaluating sc
 It streamlines the resume management process with advanced features.
 
 ---
+🚀 Project Overview
+This project offers a comprehensive solution for:
 
+🧑‍💻 Building resumes with pre-designed templates.
+
+📊 Evaluating resume scores using NLP-based rules.
+
+✍️ Providing improvement suggestions for better resume quality.
+
+🔍 Filtering top resumes based on score metrics for HR personnel.
+
+It streamlines the resume management process by integrating resume creation, evaluation, and recruitment insights into a single platform.
+
+🎨 My Contribution — Frontend Developer
+As a Frontend Developer, I focused on delivering a user-friendly, modern, and responsive UI that enhances the overall experience for both job seekers and HR professionals.
+
+✅ My Work Includes:
+🔧 Designed and implemented clean and attractive UI components using React.js.
+
+🎯 Built interactive features such as:
+
+Resume Builder page
+
+Resume Score Page (with visual score breakdown)
+
+Template Selection interface
+
+Suggestions and Resume Improvement page
+
+🧪 Ensured responsive design across all devices.
+
+🌐 Integrated RESTful APIs for data retrieval and submission with Flask backend.
+
+📁 Managed static assets and applied custom CSS for branding consistency.
+
+🧩 Created modular components for scalability and future enhancements.
+
+💡 Proposed and added new UI elements to improve user journey and usability.
+
+---
+🔧 Key Features
+Feature	Description
+📝 Resume Builder	Build resumes using ready-to-use templates and form inputs
+📈 Resume Score	Score generated based on content quality and structure
+💬 Suggestions	Get personalized suggestions to improve your resume
+🏆 Top Resume Filter	View top 5 resumes for hiring managers
+🔒 Authentication	Firebase-based login/signup with secure user access
+
+📂 Related Work Done by Me
+Developed Home, ResumeBuilder, ScorePage, TemplateSelectionPage, and Contact components.
+
+Enhanced user navigation using React Router.
+
+Implemented image support and preview for resume templates.
+
+Added animations and transitions for better user engagement.
+
+Customized resume layout templates with sleek UI and CSS.
+
+Participated in UI/UX design decisions for future modules and scalability.
+
+---
 ## 🛠️ Local Setup  
 Run **Backend** first, then start **Frontend**.
 
