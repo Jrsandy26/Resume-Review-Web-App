@@ -1,75 +1,91 @@
-# Getting Started with Create React App
+Resume Review Web Application
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 ![REST API](https://img.shields.io/badge/REST-02569B?style=for-the-badge&logo=rest&logoColor=white)
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+This project offers a comprehensive solution for building resumes, evaluating scores with suggestions, and filtering the best resumes efficiently. 
+It streamlines the resume management process with advanced features.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠️ Local Setup  
+Run **Backend** first, then start **Frontend**.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Clone the Repository  
+```bash
+ git clone https://github.com/Jrsandy26/Resume-Review-Web-App.git
+```
+### Open file directory
+```bash
+cd Resume-Evaluator
+```
+### Open Frontend
+```bash
+cd backend
+```
+### Install necessary python libraries
+```bash
+pip install -r requirements.txt
+```
+### Run Flask Backend
+```bash
+python app.py
+```
+### Open Frontend
+```bash
+cd frontend
+```
+### Install the node modules
+```bash
+npm install
+```
 
-### `npm test`
+### Install the libraries
+```bash
+npm install react react-dom react-router-dom axios firebase framer-motion html2canvas html2pdf.js jspdf react-hook-form react-icons boxicons
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Run the Frontend
+```bash
+npm start
+```
 
-### `npm run build`
+# SCREENSHOTS
+### Login page with firebase authentication
+![image](https://github.com/RamanKishore08/Resume-Evaluator/blob/main/Screenshots/login.jpg)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Selecting the options from the index page
+![image](https://github.com/RamanKishore08/Resume-Evaluator/blob/main/Screenshots/page1.jpg)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### RESUME BUILDING MODULE:
+![image](https://github.com/RamanKishore08/Resume-Evaluator/blob/main/Screenshots/TemplateSelection.jpg)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![image](https://github.com/RamanKishore08/Resume-Evaluator/blob/main/Screenshots/Template1.jpg)
 
-### `npm run eject`
+![image](https://github.com/RamanKishore08/Resume-Evaluator/blob/main/Screenshots/Preview.jpg)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### RESUME SCORE AND SUGGESTION PROVIDER MODULE:
+![image](https://github.com/RamanKishore08/Resume-Evaluator/blob/main/Screenshots/Resume.jpg)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![image](https://github.com/RamanKishore08/Resume-Evaluator/blob/main/Screenshots/Score.jpg)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### BEST 5 SELECTION MODULE:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![image](https://github.com/RamanKishore08/Resume-Evaluator/blob/main/Screenshots/Best5.jpg)
 
-## Learn More
+---
+## 🌟 Support the Project  
+If you find this project helpful, feel free to **fork** it and give it a ⭐️!  
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 📌 How to Fork and Clone  
+1. Click the **Fork** button at the top-right corner of this page.  
+2. Clone the forked repository to your local machine:  
+```bash
+git clone https://github.com/Jrsandy26/Resume-Review-Web-App.git
+```
+---
